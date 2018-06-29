@@ -6,7 +6,7 @@
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "revision": "lineage-15.1"
+    "branch": "lineage-15.1"
   },
   {
     "repository": "proprietary_vendor_xiaomi",
