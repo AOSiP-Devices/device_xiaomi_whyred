@@ -25,6 +25,9 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 PRODUCT_NAME := aosip_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred

@@ -11,5 +11,10 @@
   {
     "repository": "proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi"
+  },
+  {
+    "repository": "PixelExperience-Devices/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch": "pie-whyred"
   }
 ]
