@@ -1916,6 +1916,9 @@ vendor/lib/libvidhance.so
 vendor/lib/libmmlib2d_interface.so
 vendor/lib/libmorphohht4.0.so
 
+# Skia
+lib/libskia.so
+
 # Consumerir
 vendor/lib/hw/consumerir.default.so
 vendor/lib64/hw/consumerir.default.so
