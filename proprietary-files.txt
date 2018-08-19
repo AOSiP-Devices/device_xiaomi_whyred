@@ -826,7 +826,6 @@ vendor/bin/qfp-daemon
 vendor/bin/qjpeg-dma-test
 vendor/bin/resize_ext4
 vendor/bin/seemp_healthd
-vendor/bin/slim_daemon
 vendor/bin/smart-pa-cal
 vendor/bin/smart-pa-tfa-cal
 vendor/bin/ssr_diag
