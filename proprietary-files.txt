@@ -1934,6 +1934,9 @@ vendor/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml
 vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.default.so
 
+# Additional lib needed for goodix
+lib64/libsoftkeymaster.so:vendor/lib64/libsoftkeymaster.so
+
 # Sensors
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_qcomdev.conf
