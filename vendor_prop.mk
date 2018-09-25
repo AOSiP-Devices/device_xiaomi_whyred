@@ -56,6 +56,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=true \
     persist.data.wda.enable=true \
     persist.dbg.ims_volte_enable=1 \
+    persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \
     persist.debug.coresight.config=stm-events \
     persist.debug.wfd.enable=1 \
