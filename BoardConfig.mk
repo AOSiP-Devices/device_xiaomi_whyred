@@ -128,7 +128,7 @@ DTS_CODEC_M_ := false
 
 AUDIO_USE_LL_AS_PRIMARY_OUTPUT := true
 
-#USE_CUSTOM_AUDIO_POLICY := 1
+USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
 
 #Tap to wake
@@ -189,8 +189,8 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 WIFI_HIDL_FEATURE_DUAL_INTERFACE:= true
 
 # SELinux
-#include device/qcom/sepolicy/sepolicy.mk
-#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+include device/qcom/sepolicy/sepolicy.mk
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # RIL
 PROTOBUF_SUPPORTED := true
