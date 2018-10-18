@@ -333,7 +333,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Ignore the wrong IWLAN report when UE in W/G mode.
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.data_con_rprt=1
-
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.mk.maintainer=guaiyihu
