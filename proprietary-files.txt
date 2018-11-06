@@ -968,9 +968,7 @@ lib/vendor.qti.hardware.qteeconnector@1.0.so
 lib64/libGPTEE_system.so
 lib64/libQTEEConnector_system.so
 lib64/vendor.qti.hardware.qteeconnector@1.0.so
-vendor/bin/hw/android.hardware.drm@1.0-service.widevine
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 vendor/bin/qseecomd
 vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
@@ -1621,9 +1619,13 @@ vendor/bin/time_daemon
 -vendor/lib64/libtime_genoff.so
 
 # WideWine
-vendor/lib/libwvhidl.so
 vendor/lib/mediadrm/libwvdrmengine.so|56f4f50b82787d4709b82cbffe3e41a1e0e9569a
 vendor/lib64/mediadrm/libwvdrmengine.so|37c60196e0ebddf730f42e66a33a38120393fa1d
+
+# Widevine - from Nokia 7+ Onyx_00WW-user-9-PPR1.180610.011
+vendor/lib64/libwvhidl.so|c43592cf9de090d74e37f438c071256c86f31f9c
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine|a18fb3b14337da6c2e5cf39984287961b90dd527
 
 # Wifi
 vendor/bin/cnss-daemon
