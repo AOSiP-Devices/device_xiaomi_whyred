@@ -2,3 +2,4 @@ dontaudit untrusted_app_27 anr_data_file:dir read;
 dontaudit untrusted_app_27 serialno_prop:file { getattr open read };
 allow untrusted_app_27 proc_tty_drivers:file { getattr open read };
 allow untrusted_app_27 proc_zoneinfo:file { getattr open read };
+get_prop(untrusted_app_27, vendor_camera_prop);
