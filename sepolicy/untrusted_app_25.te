@@ -4,3 +4,4 @@ allow untrusted_app_25 sysfs_battery_supply:file read;
 allow untrusted_app_25 sysfs:dir { getattr open read };
 allow untrusted_app_25 sysfs:file { getattr open read };
 r_dir_file(untrusted_app_25, sysfs_usb_supply)
+get_prop(untrusted_app_25, vendor_camera_prop);
