@@ -7,5 +7,4 @@ allow system_server sysfs:file { getattr open read };
 allow system_server default_android_service:service_manager add;
 allow system_server default_android_hwservice:hwservice_manager find;
 allow system_server dalvikcache_data_file:file { execute write };
-allow system_server proc:file { getattr read };
-
+allow system_server proc:file r_file_perms;
