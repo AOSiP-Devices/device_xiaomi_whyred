@@ -9,9 +9,8 @@
     "branch": "lineage-16.0"
   },
   {
-    "repository": "GuaiYiHu/android_vendor_xiaomi_whyred",
-    "target_path": "vendor/xiaomi/whyred",
-    "branch": "lineage-16.0"
+    "repository": "proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi"
   },
   {
     "repository": "PixelExperience-Devices/vendor_MiuiCamera",
