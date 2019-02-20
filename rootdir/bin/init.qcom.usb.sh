@@ -370,7 +370,7 @@ esac
 
 product_name=`getprop ro.product.name`
 miui_release=`getprop ro.miui.ui.version.name`
-miui_debuggable=`getprop ro.debuggable`
+miui_debuggable="1"
 case "$miui_release" in
 	"")
 		case "$miui_debuggable" in
