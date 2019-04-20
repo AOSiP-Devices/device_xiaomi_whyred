@@ -1403,7 +1403,6 @@ lib64/libmmrtpdecoder.so|5b6c1e8d63bab729862f8e4afff374e2e365a51a
 lib64/libmmrtpencoder.so|da67c10a9fb3579c2a5b8ab705fc0335ec62bef0
 lib64/libwfdclient.so|c69712162493bdaa8833b5aae342ee4f9b0c2408
 lib64/libwfdnative.so|2d6e47bbe2ae745992bcb5406451bf5f10cd0552
--priv-app/WfdService/WfdService.apk|5a6e8a62ab59276ab3d7115e2fbd3f17ee225d99
 vendor/bin/wifidisplayhalservice|bb6758bf316bc6037be0ad0b890207095813ae6e
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|f3add191d48d9285eb1b69433c36bb3edbaf86fe
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so|d06f24d7f59afd7a972336e3f89e49347f440d2a
