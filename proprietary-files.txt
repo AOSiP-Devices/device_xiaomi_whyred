@@ -1,4 +1,4 @@
-# ADSP
+# ADSP - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/adsprpcd
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsp_hvx_callback_skel.so
@@ -15,7 +15,7 @@ vendor/lib64/libfastcvopt.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 
-# ADSP modules
+# ADSP modules - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/etc/scve/facereco/gModel.dat
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
@@ -33,7 +33,7 @@ vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 
-# Alarm
+# Alarm - from LA.UM.7.2.r1-06900-sdm660.0
 framework/vendor.qti.hardware.alarm-V1.0-java.jar
 -vendor/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
@@ -100,7 +100,7 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Bluetooth
+# Bluetooth - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/hci_qcomm_init
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
@@ -744,7 +744,7 @@ vendor/lib/libmmcamera_whyred_s5k5e8_qtech_ii_eeprom.so
 # Charger
 vendor/bin/hvdcp_opti
 
-# CNE
+# CNE - from LA.UM.7.2.r1-06900-sdm660.0
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
 framework/cneapiclient.jar
@@ -825,7 +825,7 @@ vendor/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml
 
-# DPM
+# DPM - from LA.UM.7.2.r1-06900-sdm660.0
 bin/dpmd
 etc/dpm/dpm.conf
 etc/init/dpmd.rc
@@ -845,7 +845,7 @@ vendor/bin/dpmQmiMgr
 vendor/lib64/libdpmqmihal.so
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 
-# DRM
+# DRM - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/qseecomd
 vendor/lib/libQSEEComAPI.so
 vendor/lib/libsdedrm.so
@@ -864,14 +864,14 @@ vendor/lib64/libssd.so
 vendor/lib64/libStDrvInt.so
 vendor/lib64/libtzdrmgenprov.so
 
-# DRM
+# DRM - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
-# ESE-Powermanager
+# ESE-Powermanager - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
 vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
 lib/vendor.qti.esepowermanager@1.0.so
@@ -918,7 +918,7 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
-# FM
+# FM - from LA.UM.7.2.r1-06900-sdm660.0
 lib/libfm-hci.so
 lib/fm_helium.so
 lib64/libfm-hci.so
@@ -931,11 +931,11 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
-# Gatekeeper
+# Gatekeeper - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib64/hw/gatekeeper.sdm660.so
 
-# GPS
+# GPS - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/hw/vendor.qti.gnss@2.0-service
 vendor/bin/DR_AP_Service
 vendor/bin/garden_app
@@ -986,7 +986,7 @@ vendor/firmware/a530_gpmu.fw2
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 
-# Graphics
+# Graphics - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
@@ -1026,11 +1026,11 @@ vendor/lib/librs_adreno_sha1.so
 vendor/lib/librs_adreno.so
 vendor/lib/libRSDriver_adreno.so
 
-# Graphics (HDR)
+# Graphics (HDR) - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 
-# Graphics (SDM) - from LA.UM.7.4.r1-04100-8x98.0
+# Graphics (SDM) - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/lib/libqseed3.so|c60e08f5efa1e9aea339a7a5a6dccdc2d107f530
 vendor/lib/libsdm-color.so|8e083bb2a20ecf76bf96e303134cbaa9ce46be81
 vendor/lib/libsdm-diag.so|e0455e9dd0e2378a3f770eb914aa11e612d594eb
@@ -1043,15 +1043,15 @@ vendor/lib64/libsdm-disp-vndapis.so|8ac59a32a2601a8a4b0d3b097ed02f1279f3c6b7
 vendor/lib64/libsdmextension.so|c4a416cb8c0f5dc87bee8494d70247cf049224b9
 vendor/lib64/libtinyxml2_1.so|9d5179eda8ce70b9a4014b144f9d23d33509fddc
 
-# Graphics (Vulkan)
+# Graphics (Vulkan) - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/lib/hw/vulkan.sdm660.so
 vendor/lib64/hw/vulkan.sdm660.so
 
-# Keystore
+# Keystore - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
 
-# Listen
+# Listen - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/etc/audio.scd
 vendor/lib/hw/sound_trigger.primary.sdm660.so
 vendor/lib/libadpcmdec.so
@@ -1070,7 +1070,7 @@ vendor/lib64/libgcs.so
 vendor/lib64/libnwa.so
 vendor/lib64/libsse.so
 
-# Media
+# Media - from LA.UM.7.2.r1-06900-sdm660.0
 lib/libmmosal.so
 lib/vendor.qti.hardware.vpp@1.1.so
 lib64/libmmosal.so
@@ -1134,7 +1134,7 @@ vendor/lib64/libvpphvx.so
 vendor/lib64/libvpptestutils.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 
-# Perf
+# Perf - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/energy-awareness
 vendor/bin/msm_irqbalance
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
@@ -1153,7 +1153,7 @@ vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/vendor.qti.hardware.perf@1.0.so
 
-# Peripheral manager
+# Peripheral manager - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
@@ -1162,7 +1162,7 @@ vendor/lib64/libperipheral_client.so
 # Power-off charging daemon
 -sbin/charger:sbin/chargeonlymode;rootfs|664dfa548b81cac348f1699222160f8d2b4d247c
 
-# Postprocessing
+# Postprocessing - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/mm-pp-dpps
 vendor/etc/init/vendor.display.color@1.0-service.rc
@@ -1171,7 +1171,7 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
-# QMI - from MI 8 Lite platina-user 9 PKQ1.181007.001 9.3.28 release-keys
+# QMI - from LA.UM.7.2.r1-06900-sdm660.0
 etc/permissions/qti_permissions.xml
 etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 vendor/bin/irsc_util
@@ -1205,7 +1205,7 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmi.so
 vendor/lib64/libqmiservices.so
 
-# Radio
+# Radio - from LA.UM.7.2.r1-06900-sdm660.0
 -app/datastatusnotification/datastatusnotification.apk
 -app/embms/embms.apk
 -app/QtiTelephonyService/QtiTelephonyService.apk
@@ -1266,7 +1266,7 @@ vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/radio/qcril_database/qcril.db
 
-# Radio - IMS
+# Radio - IMS - from LA.UM.7.2.r1-06900-sdm660.0
 -app/imssettings/imssettings.apk:vendor/app/imssettings/imssettings.apk
 -priv-app/ims/ims.apk|8ce53a82c0b585083410fd2b7b26dee2c6eb54c4
 etc/permissions/com.qualcomm.qti.imscmservice.xml
@@ -1316,7 +1316,7 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 
-# Sensors
+# Sensors - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/sensors.qti
 vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/lib/hw/activity_recognition.sdm660.so
@@ -1328,7 +1328,7 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/libsensor1.so
 vendor/lib64/sensors.ssc.so
 
-# Soter
+# Soter - from LA.UM.7.2.r1-06900-sdm660.0
 -app/SoterService/SoterService.apk
 framework/vendor.qti.hardware.soter-V1.0-java.jar
 lib64/vendor.qti.hardware.soter@1.0.so
@@ -1349,15 +1349,15 @@ vendor/lib64/libthermalfeature.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
-# Time services
+# Time services - from LA.UM.7.2.r1-06900-sdm660.0
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/lib64/libtime_genoff.so
 
-# Wifi
+# Wifi - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/cnss-daemon
 
-# Wfd
+# Wfd - from LA.UM.7.2.r1-06900-sdm660.0
 bin/wfdservice
 etc/init/wfdservice.rc
 etc/wfdconfig.xml
