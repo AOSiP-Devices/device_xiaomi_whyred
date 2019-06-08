@@ -1,7 +1,8 @@
 [
   {
-    "repository": "kernel_xiaomi_sdm660",
-    "target_path": "kernel/xiaomi/sdm660"
+    "repository": "GuaiYihu/android_kernel_xiaomi_whyred",
+    "target_path": "kernel/xiaomi/sdm660",
+    "branch": "mkp"
   },
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
