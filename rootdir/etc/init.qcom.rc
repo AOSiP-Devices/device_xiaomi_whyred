@@ -688,8 +688,8 @@ on property:vendor.display.lcd_density=*
 
 service time_daemon /system/vendor/bin/time_daemon
     class main
-    user root
-    group root
+    user system
+    group system
 
 # Set vendor-ril lib path based on Meta version
 on property:vendor.rild.libpath=*
