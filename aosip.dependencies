@@ -9,8 +9,9 @@
     "branch": "lineage-16.0"
   },
   {
-    "repository": "proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi"
+    "repository": "TeamIllusion/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "remote": "gitlab"
   },
   {
     "repository": "PixelExperience-Devices/vendor_MiuiCamera",
