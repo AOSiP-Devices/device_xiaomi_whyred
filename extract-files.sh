@@ -22,3 +22,11 @@ export VENDOR=xiaomi
 export DEVICE_COMMON=sdm660-common
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
+
+function blob_fixup() {
+    case "${1}" in
+    vendor/lib64/libgf_ca.so)
+        sed -i "s|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g" "${2}"
+        ;;
+    esac
+}
