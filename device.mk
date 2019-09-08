@@ -434,3 +434,7 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Display
 #PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Shims
+PRODUCT_PACKAGES += \
+    libcamera_sdm660_shim
