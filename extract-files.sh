@@ -66,11 +66,9 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false "${CLEAN_VENDOR}"
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
 
-CAMERA="${BLOB_ROOT}/vendor/lib/hw/camera.sdm660.so"
 WATERMARK="${BLOB_ROOT}/vendor/lib/libMiWatermark.so"
 ICUUC="${BLOB_ROOT}/vendor/lib/libicuuc.so"
 MINIKIN="${BLOB_ROOT}/vendor/lib/libminikin.so"
-patchelf --add-needed "libui-v28.so" "${CAMERA}"
 patchelf --replace-needed "libicuuc.so" "libicuuq.so" "${WATERMARK}"
 patchelf --replace-needed "libminikin.so" "libminiq.so" "${WATERMARK}"
 patchelf --set-soname "libicuuq.so" "${ICUUC}"
