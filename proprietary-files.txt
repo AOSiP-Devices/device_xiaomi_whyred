@@ -1359,6 +1359,14 @@ vendor/lib64/libthermalioctl.so
 vendor/bin/time_daemon
 vendor/lib64/libtime_genoff.so
 
+# TUI
+lib/vendor.qti.hardware.tui_comm@1.0.so
+lib64/vendor.qti.hardware.tui_comm@1.0.so
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+
 # Wifi - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/cnss-daemon|b81c238bdad56f7dc4a2161fee8cc6c92d5144c5
 
