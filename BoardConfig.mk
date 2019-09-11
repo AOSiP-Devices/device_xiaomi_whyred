@@ -206,6 +206,9 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/bt_firmware:/bt_firmware
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Root Folders
+BOARD_ROOT_EXTRA_FOLDERS := persist
+
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 
