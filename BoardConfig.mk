@@ -25,13 +25,13 @@
 # Inherit from sdm660-common
 -include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/tulip
+DEVICE_PATH := device/xiaomi/whyred
 
 # Kernel
-TARGET_KERNEL_CONFIG := tulip_defconfig
+TARGET_KERNEL_CONFIG := whyred_defconfig
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/tulip/BoardConfigVendor.mk
+-include vendor/xiaomi/whyred/BoardConfigVendor.mk
