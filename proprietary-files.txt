@@ -53,7 +53,6 @@ vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/lib_lowlight.so
 vendor/lib/libmibokeh_660.so
-vendor/lib/libMiWatermark.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
