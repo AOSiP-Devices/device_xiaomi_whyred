@@ -650,13 +650,21 @@ vendor/firmware/goodixfp.b07:vendor/firmware/goodixfp.b07
 vendor/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt
 
 # Fingerprint sensor
-vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.goodix.so
-vendor/lib64/hw/fingerprint.fpc.default.so:vendor/lib64/hw/fingerprint.fpc.so
+-vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
+vendor/bin/qfp-daemon
+vendor/etc/permissions/com.fingerprints.extension.xml
+vendor/framework/com.fingerprints.extension.jar
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib64/hw/fingerprint.default.so
+vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/libgf_ca.so
+vendor/lib64/libqfp-service.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Gatekeeper - from LA.UM.7.2.r1-07400-sdm660.0
 vendor/lib/hw/gatekeeper.sdm660.so|bb56ae8a8fcc13148d1723044b8c617e6cf0b7ae
