@@ -21,7 +21,7 @@ export DEVICE=whyred
 export VENDOR=xiaomi
 export DEVICE_COMMON=sdm660-common
 
-./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
+./../../$VENDOR/$DEVICE_COMMON/extract-files.sh "$@"
 
 function blob_fixup() {
     case "${1}" in
