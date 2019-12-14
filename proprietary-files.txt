@@ -670,3 +670,7 @@ vendor/lib64/libqfp-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+
+# Gatekeeper - from LA.UM.7.2.r1-07400-sdm660.0
+vendor/lib/hw/gatekeeper.sdm660.so|bb56ae8a8fcc13148d1723044b8c617e6cf0b7ae
+vendor/lib64/hw/gatekeeper.sdm660.so|e8f32651e4bfff88fcc02c34eca6cd5f04a444a
