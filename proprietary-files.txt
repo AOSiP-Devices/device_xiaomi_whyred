@@ -58,12 +58,14 @@ vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libflash_pmic.so
+vendor/lib/libft2vendor.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/lib_lowlight.so
 vendor/lib/libmibokeh_660.so
+vendor/lib/libMiWatermark.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
