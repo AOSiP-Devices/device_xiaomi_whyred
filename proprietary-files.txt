@@ -666,6 +666,15 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
+# FM - from jasmine
+lib/libfm-hci.so|b066567e07279bf59e78f7d318302dd706bb80fe
+lib/fm_helium.so|fb2a591a61122bbdf818ba9e6c931aa7c3d8a953
+lib64/libfm-hci.so|24cd3321d251409aec7d5b6fe160c9fd37a12af5
+lib64/fm_helium.so|e41e3a18f5a0dc666adad471e7332c707b4d2044
+vendor/bin/fm_qsoc_patches|ea7004d7d85227e56df2f8b49a529df92f6b8726
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|967a941dcf364b931e0db4402d0ea028a20ed2ff
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|665bdb1a9d0368a0ed45c384c191e5a84c985c8e
+
 # Gatekeeper - from LA.UM.7.2.r1-07400-sdm660.0
 vendor/lib/hw/gatekeeper.sdm660.so|bb56ae8a8fcc13148d1723044b8c617e6cf0b7ae
 vendor/lib64/hw/gatekeeper.sdm660.so|e8f32651e4bfff88fcc02c34eca6cd5f04a444a

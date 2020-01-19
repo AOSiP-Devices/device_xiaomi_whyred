@@ -27,6 +27,17 @@
 
 DEVICE_PATH := device/xiaomi/whyred
 
+# Audio
+AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
+
+# FM
+BOARD_HAS_QCA_FM_SOC := cherokee
+BOARD_HAVE_QCOM_FM := true
+
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/vendor_framework_compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := whyred_defconfig
 
