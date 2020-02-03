@@ -30,6 +30,9 @@ DEVICE_PATH := device/xiaomi/whyred
 # Audio
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
+
 # FM
 BOARD_HAS_QCA_FM_SOC := cherokee
 BOARD_HAVE_QCOM_FM := true

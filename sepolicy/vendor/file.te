@@ -1,0 +1,2 @@
+# Touchscreen wake_gesture
+type sysfs_tap_to_wake, sysfs_type, fs_type;

@@ -1,0 +1,2 @@
+# Touchscreen Gestures
+/proc/wake_gesture u:object_r:sysfs_tap_to_wake:s0
